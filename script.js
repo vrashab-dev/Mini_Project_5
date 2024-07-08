@@ -9,8 +9,10 @@ function ColorChange() {
   }
   return CH;
 }
+
 let set;
 let body = document.querySelector("#body");
+
 document.getElementById("Stop").addEventListener("click", () => {
   clearInterval(set);
   set = null;
